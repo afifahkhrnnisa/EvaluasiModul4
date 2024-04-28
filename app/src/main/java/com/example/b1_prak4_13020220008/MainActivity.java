@@ -47,7 +47,8 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 if (intentEdit == null) {
                     simpanData();
-                } else {
+                }
+                else {
                     editData();
                 }
             }
